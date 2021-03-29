@@ -1,0 +1,49 @@
+<div class="page" data-name="post">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Voltar</span>
+          </a>
+        </div>
+        <div class="title">Postar</div>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="block-title">RedeSocialEtec</div>
+      <div class="list no-hairlines-md">
+        <ul>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Foto</div>
+                <div class="item-input-wrap">
+                  <input type="file" class="form-control-file" id="foto" name="foto" accept=".jpg,.png">
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Texto</div>
+                <div class="item-input-wrap">
+                  <div class="text-editor text-editor-init" data-placeholder="Digite seu texto..." data-buttons='[["bold", "italic", "underline", "strikeThrough"], ["orderedList", "unorderedList"]]'>
+                    <div class="text-editor-content" contenteditable  id="texto"></div>
+                  </div>                  
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="block block-strong">
+        <p class="row">
+          <a href="#" class="col button" onclick="postar()">Publicar</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  
